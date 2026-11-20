@@ -109,6 +109,21 @@ To explore a real-world healthcare dataset using SQL and answer questions that h
 3. Run the queries one by one. Each query has a comment above it describing the question.
 4. Run the cleaning section last, because it modifies the table (a backup table is created first).
 
+## SQL Skills for Data Analysis
+
+Core SQL skills I have learned and use for data analysis:
+
+- **Query basics:** `SELECT`, `WHERE`, `ORDER BY`, `DISTINCT`, `LIKE`, `IN`, `BETWEEN`
+- **Aggregation:** `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `GROUP BY`, `HAVING`
+- **Joins:** inner join, left join, right join, full join, self join
+- **Subqueries:** in `WHERE`, `FROM` and `SELECT`
+- **CTEs (Common Table Expressions):** `WITH` clause to break complex queries into readable steps
+- **Window functions:** `ROW_NUMBER`, `RANK`, `DENSE_RANK`, `LAG`, `LEAD`, running totals
+- **Conditional logic:** `CASE WHEN`
+- **Data cleaning:** `NULLIF`, `NVL`, `COALESCE`, handling missing values and duplicates
+- **String functions:** `UPPER`, `LOWER`, `SUBSTR`, `LENGTH`, `REPLACE`
+- **SQL command types:** DDL (`CREATE`, `ALTER`, `DROP`), DML (`INSERT`, `UPDATE`, `DELETE`), DQL (`SELECT`)
+
 ## What I Learned
 
 - Writing SQL to answer business questions step by step, from simple counts to window functions
@@ -118,4 +133,4 @@ To explore a real-world healthcare dataset using SQL and answer questions that h
 ## Author
 
 **C. Boomika**
-Data Analyst | Power BI Developer | MIS
+Data Analyst
